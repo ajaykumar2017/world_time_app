@@ -35,8 +35,8 @@ jobs:
       
     - name: Commit files
       run: |
-        git config --local user.email "ashishsumancse@gmail.com"
-        git config --local user.name "Ashish Suman"
+        git config --local user.email "ajaykumar201761@gmail.com"
+        git config --local user.name "Ajay Kumar"
         ls
         git add build/web && git commit -m "Initial build/web subtree commit"
         git push origin `git subtree split --prefix build/web master`:gh-pages --force
